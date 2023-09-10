@@ -1,0 +1,19 @@
+.Page404 {
+    background-image: url('../../../Assets/images/page_not_found.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.Page404 p {
+    font-size: 60px;
+    text-align: center;
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px; 
+    margin-top: 20px; 
+}

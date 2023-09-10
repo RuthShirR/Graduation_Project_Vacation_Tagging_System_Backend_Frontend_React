@@ -1,0 +1,113 @@
+.VacationCard {
+    width: 400px;
+    margin: 10px;
+    height: 210px;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+
+.VacationCard span , p {
+    display: block;
+  
+}
+.card-destination {
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-size: 1.5em; 
+}
+.VacationCard > .card-content > span,
+.VacationCard > .card-content > p {
+    padding: 30px;
+    margin: 0; 
+}
+
+.VacationCard > .card-content > p {
+    background-color: rgba(255, 255, 255, 0.5); 
+    overflow-y: auto;
+    height: 10px;
+    margin-top: 60px; 
+}
+
+
+.VacationCard > img {
+    width: 400px;
+    height: 230px;
+    background-size: 100% 100%;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.VacationCard > .card-content {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+}
+
+.VacationCard > .card-content > span, p {
+    padding: 10px;
+}
+
+.VacationCard > .card-content > .bottom-card {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #2ebae5;
+    padding: 3px;
+}
+
+.VacationCard > .card-content > .admin-icons {
+    position: absolute;
+    top: 15px;
+    right: 2px;
+}
+
+.VacationCard > .card-content > .admin-icons > * {
+    display: inline-block;
+}
+
+.VacationCard > .card-content > .admin-icons > .edit-link {
+    background-color: #2ebae5;
+    width: 70px;
+    height: 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 5px;
+    color: black;
+    text-align: center;
+    
+}
+.VacationCard > .card-content > .admin-icons > .delete-button-style {
+    background-color: #ffb602;
+    width: 70px;
+    height: 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 5px;
+    color: black;
+    text-align: center;
+    border: none;
+}
+
+.VacationCard > .card-content > .followers-area {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+
+.VacationCard > .card-content > .followers-area > span {
+    margin: 5px;
+}
+
+.VacationCard > .card-content > .followers-area > .follow-button-style {
+    background-color: #ffb602;
+    border-radius: 10px;
+    border: none;
+}

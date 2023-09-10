@@ -1,0 +1,46 @@
+.VacationList {
+    margin: 50px auto;
+    width: 90%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    border: none;
+    background-color: #2ebae5;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination button:hover {
+    background-color: #ffb602;
+  }
+  
+  .VacationList .filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: #ffb602;
+    font-weight: bold;
+}
+
+.VacationList .filters label {
+    display: flex;
+    align-items: center;
+}
+
+.VacationList .filters label input[type="checkbox"] {
+    margin-right: 10px;
+   
+}

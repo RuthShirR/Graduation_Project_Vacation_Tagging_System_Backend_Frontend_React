@@ -1,0 +1,46 @@
+html, body, #root  {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(Assets/images/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    direction: ltr;
+}
+
+.button-style {
+    border-radius: 10px;
+    border: none;
+    background-color: #2ebae5;
+}
+
+.button-style:hover {
+    background-color: #ffb602;
+}
+
+.link {
+    text-decoration: none;
+    color: #2ebae5;
+    font-size: large;
+}
+
+input {
+    outline: none;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffb602;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
+

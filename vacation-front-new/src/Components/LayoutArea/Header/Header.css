@@ -1,0 +1,64 @@
+.Header {
+	background-image: url("../../../Assets/images/header.jpg"); 
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.carousel {
+    width: 100%;
+    height: 410px;
+}
+
+.content {
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    color: white;
+    overflow-wrap: break-word;
+    overflow-y: auto;
+}
+
+.content > p {
+    width: 80%;
+    margin: auto;
+}
+
+.main-image {
+    background-image: url("../../../Assets/images/header.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 410px;
+    background-position: bottom;
+}
+
+.paphos-image {
+    background-image: url("../../../Assets/images/paphos.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 410px;
+}
+
+.greece-image {
+    background-image: url("../../../Assets/images/greece.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 410px;
+}
+
+.ibiza-image {
+    background-image: url("../../../Assets/images/ibiza.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 410px;
+    background-size: cover;
+    background-position: center;
+}

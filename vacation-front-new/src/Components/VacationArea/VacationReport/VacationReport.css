@@ -1,0 +1,74 @@
+.VacationReport {
+  margin: 20px;
+  text-align: center; 
+}
+.VacationReport h2{
+  color: #ffb602;
+}
+
+.chart-container {
+  max-width: 800px; 
+  margin: 0 auto; 
+  margin-bottom: 20px; 
+}
+
+.report-table {
+  margin-top: 20px;
+  max-width: 800px; 
+  margin: 0 auto; 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color:black; 
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #2ebae5; 
+  color:#ffb602;
+}
+
+.VacationReport > button {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #ffb602;
+  padding: 10px 20px; 
+  display: inline-flex; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+.VacationReport > button:hover {
+  background-color: #2ebae5;
+}
+
+
+.VacationReport > button:before {
+
+  margin-right: 5px; 
+}
+
+
+.chart-container .chartjs-render-monitor .bar {
+  background-color: rgba(75, 192, 192, 0.6);
+  border-color: rgba(75, 192, 192, 1);
+}
+
+.chart-container .chartjs-render-monitor .bar:hover {
+  background-color: rgba(75, 192, 192, 0.8);
+  border-color: rgba(75, 192, 192, 1);
+}
