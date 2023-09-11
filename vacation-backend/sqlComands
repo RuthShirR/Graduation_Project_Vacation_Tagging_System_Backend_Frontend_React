@@ -1,0 +1,33 @@
+CREATE TABLE `Users` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `uuid` varchar(36) NOT NULL,
+  `firstName` varchar(100) NOT NULL,
+  `lastName` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `password` varchar(100) NOT NULL,
+  `isAdmin` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `email_UNIQUE` (`email`)
+) 
+
+CREATE TABLE `Vacations` (
+  `vacationId` int NOT NULL AUTO_INCREMENT,
+  `uuid` varchar(36) NOT NULL,
+  `description` varchar(300) NOT NULL,
+  `destination` varchar(200) NOT NULL,
+  `startDate` date NOT NULL,
+  `endDate` date NOT NULL,
+  `price` decimal(10,2) NOT NULL,
+  `imageName` varchar(100) NOT NULL,
+  PRIMARY KEY (`vacationId`,`endDate`),
+  UNIQUE KEY `uuid_UNIQUE` (`uuid`)
+) 
+
+CREATE TABLE `Followers` (
+  `userId` int NOT NULL,
+  `vacationId` int NOT NULL,
+  PRIMARY KEY (`userId`,`vacationId`),
+  KEY `vacationId` (`vacationId`),
+  CONSTRAINT `followers_ibfk_1` FOREIGN KEY (`userId`) REFERENCES `Users` (`id`) ON DELETE CASCADE,
+  CONSTRAINT `followers_ibfk_2` FOREIGN KEY (`vacationId`) REFERENCES `Vacations` (`vacationId`) ON DELETE CASCADE
+) 
